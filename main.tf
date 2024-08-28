@@ -1,3 +1,12 @@
+terraform{
+  required_version = ">= 0.12"
+  backend "s3" {
+    bucket = "myapp-bucket44"
+    key = "myapp/state.tfstate"
+    region = "ap-south-1"
+  }
+}
+
 resource "aws_vpc" "myapp-vpc" {
   cidr_block = var.vpc_cidr_block
   tags = {
