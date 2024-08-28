@@ -26,3 +26,5 @@ sample-image
 5.Cop the aws ec2 public ip(ec2_public_ip) and open the port 8080 on the local machine with the same ip, you will see the nginx server running on docker.
 
   <img width="600" alt="Screenshot 2024-08-28 at 12 25 37 PM" src="https://github.com/user-attachments/assets/e3a83434-f0bd-4890-b12d-24236c81941c">
+
+6.Create a S3 bucket (myapp-bucket44 here) for the tfstate file updation.
