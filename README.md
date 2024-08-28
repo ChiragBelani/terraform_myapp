@@ -15,6 +15,7 @@ Inorder to completely run the terraform script for the vpc, subnet, sgs and runn
 
 4.Apply the terraform script (this will automatically create a server_key (ssh key pair) for the ssh connection of the local terminal to ec2 instance.
     cmd "terraform apply"  
+    
     ![image](https://github.com/user-attachments/assets/5a18aedc-7d84-4970-85aa-ff3ef7301f79)
 
 
