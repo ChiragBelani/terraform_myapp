@@ -3,6 +3,7 @@
 Inorder to completely run the terraform script for the vpc, subnet, sgs and running a n ec2 instance on it, follow the below steps
 
 1.Install the terraform in yout terminal 
+
     cmd "brew install hashicorp/tap/terraform"
 
 2.Clone the repository into the local machine
